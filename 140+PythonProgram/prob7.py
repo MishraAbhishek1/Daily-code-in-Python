@@ -1,0 +1,9 @@
+# Write a Python program to convert kilometers to miles.
+
+kilometers = float(input("Enter Distance of Kilometers: "))
+
+# here we have logic 1 km = 0.621371
+conversion_factor = 0.621371
+
+miles = kilometers * conversion_factor
+print(f"{kilometers} kilometers is equal to miles = {miles}")
