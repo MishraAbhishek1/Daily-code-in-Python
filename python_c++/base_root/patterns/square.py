@@ -12,19 +12,3 @@ def square_patterns(n):
         print()
 
 square_patterns(4)
-
-print("\n")
-
-# * * * * *
-# * * * * *
-# * * * * *
-# * * * * *
-
-def square_start_patterns(n):
-    
-    for i in range(0, n+1):
-        for j in range(0, n+1):
-            print("*", end=" ")
-        print()
-
-square_start_patterns(4)
